@@ -79,17 +79,27 @@ nav{
 	  position: fixed;
 	  top: 0;
 	  width: 100%;
+	  z-index:2;
 }
 nav a{
 	color: black;	
   text-decoration:none;
   opacity: 0.5;
   margin:0 3%;
-  margin-left: 3%;
+  margin-left: 5%;
   display: inline-block;
+  transition: 0.32s;
 }
 nav a:hover{
-	background-color: yellow;
+  background-color: yellow;
+  color:red;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav a:active{
+	background-color:greenyellow;
+	box-shadow: 0 5px gold;
+	color:black;
+	transform: translateY(4px);
 }
 
 #navgroup .logo{	
