@@ -60,7 +60,10 @@ html, body {
     height: 100%;
 	font-family: 'Titillium Web', sans-serif;
 	max-width:100%;
+
 }
+
+
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
@@ -152,7 +155,18 @@ nav a:active{
 	margin-left:9%;
 	display:inline-block;
 	position: relative;
-	
+	transition: 0.32s;
+}
+.button:hover{
+	background:lightgrey;
+	color:teal;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:active{
+	background-color:#D2B48C;
+  box-shadow: 0 5px #666;
+  color:black;
+  transform: translateY(4px);
 }
   .headimg{
 	width:30%;
@@ -200,7 +214,7 @@ margin-right: 5%;
 
 footer{
 	margin-top:5%;
-	margin-bottom: ;
+	margin-bottom:10%;
 	text-align:center;
 }
 
