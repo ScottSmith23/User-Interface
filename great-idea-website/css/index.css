@@ -51,7 +51,9 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	max-width: 100%;
+	max-width: 960px;
+	border: 1px solid #000;
+	margin: auto;
 }
 
 html, body {
